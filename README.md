@@ -1,5 +1,7 @@
 # D.Lgs 81/08 — Testo Unico Sicurezza Lavoro (struttura per Titoli + indice articoli chiave)
 
+[![Part of the tutor-sicurezza open-data ecosystem](https://img.shields.io/badge/ecosystem-tutor--sicurezza-blue.svg)](https://github.com/tutor-sicurezza)
+
 Repository di riferimento per parsing strutturato del **Decreto Legislativo 9 aprile 2008, n. 81** (Testo Unico sulla salute e sicurezza nei luoghi di lavoro), organizzato per i 13 Titoli + indice JSON degli articoli più referenziati nella formazione e nella consulenza. Pensato per chatbot, legal-tech, AI agents, sistemi RAG e applicativi compliance che necessitano di una rappresentazione machine-readable della struttura del decreto.
 
 > **English summary** — Structured parsing of the Italian Legislative Decree 81/2008 (Workplace Health & Safety Act), organized by the 13 Titles. Each title is a Markdown file with YAML frontmatter (article range, key articles, related annexes, topics). A JSON index lists the most-referenced articles with rubric, subject matter, applicable sanction. Useful for chatbots, legal-tech, AI agents, RAG systems and compliance applications.
@@ -58,6 +60,30 @@ Una versione narrata con esempi pratici, casi applicativi e FAQ per RSPP, datori
 ## Contributi
 
 Pull request benvenute per: correzione di refusi, aggiornamento delle "Note di modifiche successive", arricchimento dell’indice JSON con articoli ulteriori, traduzioni dei sommari. Mantenere lo schema YAML/JSON esistente e segnalare la fonte normativa.
+
+## Related repositories
+
+Open dataset / tooling ecosystem for Italian workplace safety (D.Lgs 81/08) maintained by [@tutor-sicurezza](https://github.com/tutor-sicurezza):
+
+**Datasets**
+- [italian-ateco-database](https://github.com/tutor-sicurezza/italian-ateco-database) — ATECO 2007 codes + workplace-safety risk
+- [italian-province-regioni-dataset](https://github.com/tutor-sicurezza/italian-province-regioni-dataset) — Italian provinces + regions metadata
+- [comuni-italiani-istat](https://github.com/tutor-sicurezza/comuni-italiani-istat) — Italian municipalities with ISTAT codes
+- [dlgs-81-08-glossario](https://github.com/tutor-sicurezza/dlgs-81-08-glossario) — 218 D.Lgs 81/08 glossary terms
+- [haccp-italia-normativa-regionale](https://github.com/tutor-sicurezza/haccp-italia-normativa-regionale) — HACCP regional regulations (20 Italian regions)
+- [verifiche-periodiche-inail-attrezzature](https://github.com/tutor-sicurezza/verifiche-periodiche-inail-attrezzature) — Equipment subject to INAIL periodic verification
+- [accordi-stato-regioni-sicurezza-lavoro](https://github.com/tutor-sicurezza/accordi-stato-regioni-sicurezza-lavoro) — Stato-Regioni training agreements
+
+**Libraries / tools**
+- [scadenze-formazione-calculator](https://github.com/tutor-sicurezza/scadenze-formazione-calculator) — Training renewal schedule calculator
+- [next-seo-italian-helpers](https://github.com/tutor-sicurezza/next-seo-italian-helpers) — Next.js SEO helpers for Italian B2B
+- [mcp-italian-workplace-safety](https://github.com/tutor-sicurezza/mcp-italian-workplace-safety) — MCP server for Claude Desktop / Cursor / Cline
+
+**Online services**
+- [Public REST API + OpenAPI 3.1 + DCAT-AP-IT](https://123formazione.com/api/public/docs) — Free open data API
+- [Live documentation site (GitHub Pages)](https://tutor-sicurezza.github.io/accordi-stato-regioni-sicurezza-lavoro/) — Accordi Stato-Regioni
+
+All resources are MIT or CC-BY licensed and maintained as production-quality open data.
 
 ## Licenza
 
