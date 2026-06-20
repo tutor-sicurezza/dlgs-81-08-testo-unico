@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "D.Lgs 81/08 — Testo Unico Sicurezza Lavoro (struttura per Titoli + indice articoli chiave)"
+message: "Se usi questo dataset, cita il repository."
+type: dataset
+authors:
+  - name: "tutor-sicurezza"
+repository-code: "https://github.com/tutor-sicurezza/dlgs-81-08-testo-unico"
+license: CC-BY-SA-4.0
+version: "1.0.0"
+date-released: "2026-06-20"
+keywords:
+  - dlgs-81-08
+  - sicurezza-lavoro
+  - testo-unico
+  - legal-tech
+  - italian-data
+  - normativa-italiana
