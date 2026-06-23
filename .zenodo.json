@@ -1,0 +1,46 @@
+{
+  "title": "D.Lgs 81/08 Testo Unico — testo strutturato Testo Unico Sicurezza Lavoro",
+  "description": "Testo strutturato e machine-readable del D.Lgs 9 aprile 2008 n. 81 (Testo Unico Sicurezza Lavoro) inclusi tutti gli allegati tecnici, aggiornato con D.Lgs 106/2009 e modifiche successive. Formato JSON gerarchico (titoli, capi, articoli, commi, lettere) con cross-reference interni e timestamp degli aggiornamenti normativi.",
+  "upload_type": "dataset",
+  "license": "CC-BY-SA-4.0",
+  "access_right": "open",
+  "language": "ita",
+  "keywords": [
+    "italy",
+    "dlgs-81-08",
+    "testo-unico",
+    "sicurezza-lavoro",
+    "normativa",
+    "legal-text",
+    "open-data",
+    "compliance"
+  ],
+  "creators": [
+    {
+      "name": "123Formazione",
+      "affiliation": "CDS SERVICE SIC-LAV S.R.L.",
+      "orcid": null
+    }
+  ],
+  "communities": [
+    {"identifier": "open-data"},
+    {"identifier": "legal-informatics"}
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tutor-sicurezza/dlgs-81-08-testo-unico",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://123formazione.com",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ],
+  "references": [
+    "D.Lgs 9 aprile 2008 n. 81 — Testo Unico Sicurezza Lavoro",
+    "D.Lgs 3 agosto 2009 n. 106 — Disposizioni integrative e correttive"
+  ],
+  "publication_date": "2026-06-23"
+}
